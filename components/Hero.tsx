@@ -15,7 +15,7 @@ const Hero = () => {
                 />
                 <Spotlight
                     className="h-[80vh] w-[50vw] top-10 left-full"
-                    fill="purple"
+                    fill="blue"
                 />
                 <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
             </div>
@@ -30,11 +30,11 @@ const Hero = () => {
                         Full Stack Developer
                     </h2>
                     <TextGenerateEffect
-                        words="Transforming Ideas Into Great User Experiences"
-                        className="text-[40px] text-center md:text-5xl lg:text-6xl"
+                        words="Turning Concepts into Outstanding Interactions"
+                        className="text-[30px] text-center md:text-5xl lg:text-6xl"
                     />
-                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi, I&apos;am Afaq Ibrar, Software Engineer based in Pakistan
+                    <p className='text-center md:tracking-wider mb-4 text-base md:text-lg lg:text-2xl'>
+                        Hi, I&apos;am Afaq Ibrar, Software Engineer based in Pakistan with three years of professional experience. My expertise in developing web applications, particularly in MERN/PERN/LAMP stacks. I bring a comprehensive skill set to every project I undertake, ensuring high-quality and efficient solutions.
                     </p>
                     <a href='#about'>
                         <ShimmerButton title='Show My Work' icon={<FaArrowDown />} position='right' />
