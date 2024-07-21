@@ -3,7 +3,9 @@ import { Spotlight } from './ui/Spotlight'
 import { BackgroundBeams } from './ui/BackgroundBeams'
 import { TextGenerateEffect } from './ui/TestGenerateEffect'
 import ShimmerButton from './ui/ShimmerButton'
-import { FaArrowDown } from 'react-icons/fa'
+import { FaArrowDown, FaDownload, FaGithub, FaLinkedin, FaLinkedinIn, FaLocationArrow } from 'react-icons/fa'
+import MagicButton from './ui/MagicButton'
+import CustomMagicButton from './ui/CustomMagicButton'
 
 const Hero = () => {
     return (
@@ -34,11 +36,32 @@ const Hero = () => {
                         className="text-[30px] text-center md:text-5xl lg:text-6xl"
                     />
                     <p className='text-center md:tracking-wider mb-4 text-base md:text-lg lg:text-2xl'>
-                        Hi, I&apos;am Afaq Ibrar, Software Engineer based in Pakistan with three years of professional experience. My expertise in developing web applications, particularly in MERN/PERN/LAMP stacks. I bring a comprehensive skill set to every project I undertake, ensuring high-quality and efficient solutions.
+                        Hi, I&apos;am <span className='text-purple uppercase'>Afaq Ibrar</span>, Software Engineer based in Pakistan with three years of professional experience. My expertise in developing web applications, particularly in MERN/PERN/LAMP stacks. I bring a comprehensive skill set to every project I undertake, ensuring high-quality and efficient solutions.
                     </p>
-                    <a href='#about'>
-                        <ShimmerButton title='Show My Work' icon={<FaArrowDown />} position='right' />
+                    <a href='#projects'>
+                        <ShimmerButton title='Show My Work' icon={<FaLocationArrow />} position='right' />
                     </a>
+
+                    <div className='block mt-4 sm:flex sm:flex-col md:flex-row md:gap-1 sm:justify-center text-center items-center'>
+                        <div className='mb-4 md:mb-0 md:mr-1'>
+                            <a href="/Afaq_Ibrar.pdf"
+                                download>
+                                <MagicButton title='Download Resume' icon={<FaDownload />} position='right' />
+                            </a>
+                        </div>
+                        <div className='mb-4 md:mb-0 md:mr-1'>
+                            <a href='https://www.linkedin.com/in/afaq-ibrar/' target="_blank">
+                                <CustomMagicButton title='' icon={<FaLinkedin />} position='right' />
+                            </a>
+                        </div>
+                        <div className='mb-4 md:mb-0 md:mr-1'>
+                            <a href='https://github.com/afaqibrar/' target="_blank">
+                                <CustomMagicButton title='' icon={<FaGithub />} position='right' />
+                            </a>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
 

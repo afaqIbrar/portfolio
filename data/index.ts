@@ -1,8 +1,13 @@
+import { FaAngular, FaLocationArrow, FaReact } from 'react-icons/fa';
+import { LuGraduationCap } from 'react-icons/lu';
+import React from 'react'
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
     { name: "Experience", link: "#experience" },
+    { name: "Testimonials", link: "#testimonial" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -29,21 +34,21 @@ export const gridItems = [
     },
     {
         id: 3,
-        title: "Do you want to start a project together?",
+        title: "Tech enthusiast with a passion for development.",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
-        titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-        img: "",
-        spareImg: "",
+        titleClassName: "justify-start",
+        img: "/grid.svg",
+        spareImg: "/b4.svg",
     },
     {
         id: 4,
-        title: "Skills",
+        title: "Do you want to start a project together?",
         description: "",
-        className: "lg:col-span-5 md:col-span-6 md:row-span-1",
+        className: "lg:col-span-5 md:col-span-6 md:row-span-2",
         imgClassName: "",
-        titleClassName: "justify-start md:max-w-full max-w-60 items-center",
+        titleClassName: "justify-center md:max-w-full max-w-60 text-center",
         img: "",
         spareImg: "",
     },
@@ -78,7 +83,7 @@ export const projects = [
     {
         id: 4,
         title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
         img: "/p4.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://github.com/adrianhajdin/iphone",
@@ -186,6 +191,7 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
+        href: "https://www.github.com/afaqibrar"
     },
     {
         id: 2,
@@ -194,5 +200,30 @@ export const socialMedia = [
     {
         id: 3,
         img: "/link.svg",
+        href: "https://www.linkedin.com/in/afaq-ibrar"
     },
 ];
+
+export const skillsData = [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Material UI",
+    "Redux",
+    "Git",
+    "Tailwind",
+    "Prisma",
+    "TypeORM",
+    "Sequalize",
+    "MongoDB",
+    "Node.js",
+    "PHP",
+    "Express",
+    "PostgreSQL",
+    "NestJs",
+    "Framer Motion",
+] as const;

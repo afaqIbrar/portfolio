@@ -10,7 +10,6 @@ export const TextGenerateEffect = ({
     words: string;
     className?: string;
 }) => {
-    console.log('object', className)
     const [scope, animate] = useAnimate();
     let wordsArray = words.split(" ");
     useEffect(() => {

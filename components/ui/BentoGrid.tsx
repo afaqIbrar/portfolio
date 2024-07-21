@@ -8,8 +8,7 @@ import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import animationData from "@/data/confetti.json";
 import ShimmerButton from "./ShimmerButton";
-import { LampContainer } from "./Lamp";
-import { motion } from "framer-motion";
+import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
     className,
@@ -51,8 +50,6 @@ export const BentoGridItem = ({
     titleClassName?: string;
     spareImg?: string;
 }) => {
-    const leftLists = ["ReactJS", "Express", "Typescript"];
-    const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
     const [copied, setCopied] = useState(false);
 
@@ -87,7 +84,7 @@ export const BentoGridItem = ({
             }}
         >
             {/* add img divs */}
-            <div className={`${id === 3 && "flex justify-center"} h-full`}>
+            <div className={`${id === 4 && "flex justify-center"} h-full`}>
                 <div className="w-full h-full absolute">
                     {img && (
                         <img
@@ -110,7 +107,7 @@ export const BentoGridItem = ({
                         />
                     )}
                 </div>
-                {id === 3 && (
+                {id === 4 && (
                     // add background animation , remove the p tag
                     <BackgroundGradientAnimation>
                         <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
@@ -139,7 +136,7 @@ export const BentoGridItem = ({
                     {id === 2 && <GlobeDemo />}
 
                     {/* Tech stack list div */}
-                    {id === 3 && (
+                    {id === 4 && (
                         <div className="mt-5 relative">
                             {/* button border magic from tailwind css buttons  */}
                             {/* add rounded-md h-8 md:h-8, remove rounded-full */}
@@ -153,8 +150,8 @@ export const BentoGridItem = ({
                                 <Lottie options={defaultOptions} height={200} width={400} />
                             </div>
 
-                            <ShimmerButton
-                                title={copied ? "Email is Copied!" : "Copy Email address"}
+                            <MagicButton
+                                title={copied ? "Email is Copied!" : "Copy my email address"}
                                 icon={<IoCopyOutline />}
                                 position="left"
                                 handleClick={handleCopy}
@@ -163,20 +160,22 @@ export const BentoGridItem = ({
                         </div>
                     )}
                     {id === 4 && (
-                        <div>
-                            <LampContainer>
-                                <div
-                                    className="mt-10 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
-                                >
-                                    <span>
-                                        <span>Hello</span>
-                                        <span>Hello</span>
-                                        <span>Hello</span>
-                                        <span>Hello</span>
-                                    </span>
-                                </div>
-                            </LampContainer>
-                        </div>
+                        <></>
+                        // <div>
+                        //     {/* <LampContainer>
+                        //         <div
+                        //             className="mt-10 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+                        //         >
+                        //             <span>
+                        //                 <span>Hello</span>
+                        //                 <span>Hello</span>
+                        //                 <span>Hello</span>
+                        //                 <span>Hello</span>
+                        //             </span>
+                        //         </div>
+                        //     </LampContainer> */}
+                        //     <CapsuleAnimation />
+                        // </div>
                     )}
                 </div>
             </div>
