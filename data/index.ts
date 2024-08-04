@@ -1,4 +1,4 @@
-import { FaAngular, FaLocationArrow, FaReact } from 'react-icons/fa';
+import { FaNode, FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import React from 'react'
 
@@ -7,9 +7,44 @@ export const navItems = [
     { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
     { name: "Experience", link: "#experience" },
-    { name: "Testimonials", link: "#testimonial" },
+    // { name: "Testimonials", link: "#testimonial" },
     { name: "Contact", link: "#contact" },
 ];
+
+export const experiencesData = [
+    {
+        title: "Software Engineer - Coding Crafts",
+        location: "Lahore, Pakistan",
+        description:
+            "Content.",
+        icon: React.createElement(FaNode),
+        date: "2024(June) - present",
+    },
+    {
+        title: "Software Engineer (Level 1) - Oware Technologies",
+        location: "Lahore, Pakistan",
+        description:
+            "Content.",
+        icon: React.createElement(FaNode),
+        date: "2023(June) - 2023(May)",
+    },
+    {
+        title: "Backend Developer - Programmer Force",
+        location: "Lahore, Pakistan",
+        description:
+            "Content.",
+        icon: React.createElement(FaNode),
+        date: "2023(April) - 2023(June)",
+    },
+    {
+        title: "Software Engineer - Rolustech",
+        location: "Lahore, Pakistan",
+        description:
+            "Content.",
+        icon: React.createElement(LuGraduationCap),
+        date: "2021(June) - 2023(April)",
+    },
+] as const;
 
 export const gridItems = [
     {
@@ -58,32 +93,32 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+        title: "HelloGov (Get govt. docs fast with HelloGov)",
+        des: "Content",
         img: "/p1.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
         link: "https://github.com/adrianhajdin?tab=repositories",
     },
     {
         id: 2,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+        title: "O360 (Cloud Platform for Modern Supply Chains) ",
+        des: "Content.",
         img: "/p2.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
         link: "https://github.com/adrianhajdin/zoom-clone",
     },
     {
         id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+        title: "KYC Product (Liveness Detection)",
+        des: "Content.",
         img: "/p3.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
         link: "https://github.com/adrianhajdin/ai_saas_app",
     },
     {
         id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
+        title: "Zension Tech (Subscription Based Model)",
+        des: "Content.",
         img: "/p4.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://github.com/adrianhajdin/iphone",

@@ -20,7 +20,7 @@ function Skills() {
     return (
         <section
             id="skills"
-            className="mb-28 max-w-full scroll-mt-28 text-center sm:mb-40 justify-center mx-20 gap-4"
+            className="mb-20 max-w-full scroll-mt-28 text-center sm:mb-40 justify-center mx-20 gap-4"
         >
             <div className="font-medium capitalize text-3xl mb-8 text-center">
                 Skills
