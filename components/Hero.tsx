@@ -1,15 +1,20 @@
+'use client'
+
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { BackgroundBeams } from './ui/BackgroundBeams'
 import { TextGenerateEffect } from './ui/TestGenerateEffect'
 import ShimmerButton from './ui/ShimmerButton'
-import { FaArrowDown, FaDownload, FaGithub, FaLinkedin, FaLinkedinIn, FaLocationArrow } from 'react-icons/fa'
+import { FaDownload, FaGithub, FaLinkedin, FaLinkedinIn, FaLocationArrow } from 'react-icons/fa'
 import MagicButton from './ui/MagicButton'
-import CustomMagicButton from './ui/CustomMagicButton'
+import CustomMagicButton from './ui/CustomMagicButton';
+import Image from 'next/image';
+import { motion } from "framer-motion";
+
 
 const Hero = () => {
     return (
-        <div className='pb-20 pt-36'>
+        <div className='pb-20 pt-12'>
             <div>
                 <Spotlight
                     className="-top-40 -left-20 md:-left-32 md:-top-20 h-screen"
@@ -28,7 +33,27 @@ const Hero = () => {
             </div>
             <div className='flex justify-center relative my-20 z-10'>
                 <div className='max-w-[80vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center' >
-                    <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
+                    <div className='relative'>
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{
+                                type: "tween",
+                                duration: 0.3
+                            }}>
+                            <Image
+                                src="/afaq-portrait.jpg"
+                                alt="afaq-portaight"
+                                width="192"
+                                height="192"
+                                quality="95"
+                                priority={true}
+                                className='h-28 w-28 rounded-full object-cover border-[0.35rem] border-white shadow-xl  '
+                            />
+                        </motion.div>
+                        <motion.span initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: "spring", stiffness: 125, delay: 0.1, duration: 0.5 }} className='text-4xl absolute bottom-0 right-0'>👋</motion.span>
+                    </div>
+                    <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 mt-3'>
                         Full Stack Developer
                     </h2>
                     <TextGenerateEffect
