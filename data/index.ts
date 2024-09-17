@@ -16,15 +16,15 @@ export const experiencesData = [
         title: "Software Engineer - Coding Crafts",
         location: "Lahore, Pakistan",
         description:
-            "Content.",
+            "Enhanced a government document application platform with NestJS, PostgreSQL, and MongoDB. Implemented AWS SQS and Lambda for lead management and automated follow-ups, including reminders via Twilio. Integrated Twilio for communication, used Puppeteer for form automation, and optimized the system for managing passports, visas, and other paperwork. Integrated Vapi for voice chat with AI Assistant for better customer support",
         icon: React.createElement(FaNode),
         date: "2024(June) - present",
     },
     {
-        title: "Software Engineer (Level 1) - Oware Technologies",
+        title: "Software Engineer - | - Oware Technologies",
         location: "Lahore, Pakistan",
         description:
-            "Content.",
+            "As a Full Stack MERN Developer, I enhanced the supply chain platform with a Control Tower Exception Display for real-time monitoring and revamped the UI design. I integrated Magic Bell for real-time notifications and used Deck.gl for advanced data visualization. I developed intuitive React.js interfaces, custom REST APIs with Express, and contributed to architecture discussions, ensuring a scalable and resilient infrastructure.",
         icon: React.createElement(FaNode),
         date: "2023(June) - 2023(May)",
     },
@@ -32,15 +32,15 @@ export const experiencesData = [
         title: "Backend Developer - Programmer Force",
         location: "Lahore, Pakistan",
         description:
-            "Content.",
-        icon: React.createElement(FaNode),
+            "I developed and maintained APIs for a KYC (Know Your Customer) product, integrating responses from AI models to streamline verification processes. By implementing real-time functionalities with Node.js and sockets, I ensured efficient communication and instant AI responses. I wrote reusable, optimized code to boost system performance and collaborated across teams to meet milestones and deliver scalable solutions.",
+        icon: React.createElement(LuGraduationCap),
         date: "2023(April) - 2023(June)",
     },
     {
         title: "Software Engineer - Rolustech",
         location: "Lahore, Pakistan",
         description:
-            "Content.",
+            "As a Node.js developer, I contributed to a B2B2C call center portal using Angular by developing and managing various APIs for routing, authentication, and CRM requests. I created a real-time notification module using Pusher and integrated QuickBooks with the CRM, ensuring seamless real-time syncing. Additionally, I worked on SugarCRM to enhance subscription-based services for Zension.",
         icon: React.createElement(LuGraduationCap),
         date: "2021(June) - 2023(April)",
     },
@@ -94,65 +94,65 @@ export const projects = [
     {
         id: 1,
         title: "HelloGov (Get govt. docs fast with HelloGov)",
-        des: "Content",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        des: "Simplify your government paperwork with HelloGov! Our AI-driven platform makes securing passports, visas, and other documents fast and easy. Say goodbye to long waits and hello to effortless processing.",
+        img: "/hellogov.png",
+        iconLists: ["/node.svg","/ts.svg","/nest.svg", "/typeorm.svg", "/mongodb.svg","/postgresql.svg"],
+        link: "https://www.hellogov.com/",
     },
     {
         id: 2,
         title: "O360 (Cloud Platform for Modern Supply Chains) ",
-        des: "Content.",
-        img: "/p2.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        des: "Optimize your supply chain with O360's AI-powered platform. Gain real-time visibility, streamline operations, and cut costs effortlessly. Transform your logistics and inventory management today.",
+        img: "/o360.png",
+        iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mysql.svg","/javascript.svg"],
+        link: "https://www.o360cloud.com/",
     },
     {
         id: 3,
         title: "KYC Product (Liveness Detection)",
-        des: "Content.",
-        img: "/p3.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
+        des: "Facia.ai offers cutting-edge deepfake detection, facial recognition, and liveness detection solutions, designed for robust security and accuracy. Protect your business from fraud and misinformation with our AI-powered technology trusted by top enterprises and governments.",
+        img: "/facia.png",
+        iconLists: ["/node.svg", "/javascript.svg", "/ts.svg", "/mongodb.svg", "/postgresql.svg"],
+        link: "https://facia.ai/",
     },
     {
         id: 4,
         title: "Zension Tech (Subscription Based Model)",
-        des: "Content.",
-        img: "/p4.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
+        des: "Zension redefines tech accessibility with our subscription-based services, offering flexible device upgrades and comprehensive protection. Enjoy the latest tech with minimal e-waste and maximum convenience.",
+        img: "/zension.png",
+        iconLists: ["/re.svg", "/php.svg", "/node.svg", "/mysql.svg"],
+        link: "https://www.zensiontec.com/",
     },
 ];
 
 export const testimonials = [
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Collaborating with Afaq was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Afaq's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Afaq is the ideal partner.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Collaborating with Afaq was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Afaq's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Afaq is the ideal partner.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Collaborating with Afaq was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Afaq's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Afaq is the ideal partner.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Collaborating with Afaq was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Afaq's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Afaq is the ideal partner.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Collaborating with Afaq was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Afaq's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Afaq is the ideal partner.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
@@ -191,46 +191,12 @@ export const companies = [
     },
 ];
 
-export const workExperience = [
-    {
-        id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-        className: "md:col-span-2",
-        thumbnail: "/exp1.svg",
-    },
-    {
-        id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp2.svg",
-    },
-    {
-        id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp3.svg",
-    },
-    {
-        id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
-        className: "md:col-span-2",
-        thumbnail: "/exp4.svg",
-    },
-];
 
 export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
         href: "https://www.github.com/afaqibrar"
-    },
-    {
-        id: 2,
-        img: "/twit.svg",
     },
     {
         id: 3,
@@ -243,22 +209,25 @@ export const skillsData = [
     "HTML",
     "CSS",
     "SCSS",
-    "JavaScript",
-    "TypeScript",
+    "Tailwind",
     "React",
     "Next.js",
     "Material UI",
     "Redux",
+    "JavaScript",
+    "TypeScript",
     "Git",
-    "Tailwind",
+    "Node.js",
+    "Express",
+    "NestJs",
+    "PHP",
+    "PostgreSQL",
+    "MongoDB",
+    "MySql",
     "Prisma",
     "TypeORM",
     "Sequalize",
-    "MongoDB",
-    "Node.js",
-    "PHP",
-    "Express",
-    "PostgreSQL",
-    "NestJs",
-    "Framer Motion",
+    "AWS",
+    "Puppeteer",
+    "Twilio"
 ] as const;

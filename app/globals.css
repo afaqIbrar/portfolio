@@ -66,6 +66,13 @@
   }
 }
 
+.borderWhite {
+  @apply border border-white
+}
+
+.borderBlack {
+  @apply border border-black-100
+}
 @layer base {
   * {
     @apply border-border !scroll-smooth;

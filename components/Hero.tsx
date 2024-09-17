@@ -44,11 +44,11 @@ const Hero = () => {
                             <Image
                                 src="/afaq-portrait.jpg"
                                 alt="afaq-portaight"
-                                width="192"
-                                height="192"
+                                width="220"
+                                height="220"
                                 quality="95"
                                 priority={true}
-                                className='h-28 w-28 rounded-full object-cover border-[0.35rem] border-white shadow-xl  '
+                                className='h-38 w-38 rounded-full object-cover border-[0.35rem] border-white shadow-xl  '
                             />
                         </motion.div>
                         <motion.span initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: "spring", stiffness: 125, delay: 0.1, duration: 0.5 }} className='text-4xl absolute bottom-0 right-0'>👋</motion.span>
