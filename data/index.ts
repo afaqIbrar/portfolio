@@ -96,7 +96,7 @@ export const projects = [
         title: "HelloGov (Get govt. docs fast with HelloGov)",
         des: "Simplify your government paperwork with HelloGov! Our AI-driven platform makes securing passports, visas, and other documents fast and easy. Say goodbye to long waits and hello to effortless processing.",
         img: "/hellogov.png",
-        iconLists: ["/node.svg","/ts.svg","/nest.svg", "/typeorm.svg", "/mongodb.svg","/postgresql.svg"],
+        iconLists: ["/node.svg", "/ts.svg", "/nest.svg", "/typeorm.svg", "/mongodb.svg", "/postgresql.svg"],
         link: "https://www.hellogov.com/",
     },
     {
@@ -104,7 +104,7 @@ export const projects = [
         title: "O360 (Cloud Platform for Modern Supply Chains) ",
         des: "Optimize your supply chain with O360's AI-powered platform. Gain real-time visibility, streamline operations, and cut costs effortlessly. Transform your logistics and inventory management today.",
         img: "/o360.png",
-        iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mysql.svg","/javascript.svg"],
+        iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mysql.svg", "/javascript.svg"],
         link: "https://www.o360cloud.com/",
     },
     {
